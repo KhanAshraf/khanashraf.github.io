@@ -1,9 +1,7 @@
 // Required
 @import "../scss/font-awesome/font-awesome";
 @import "../scss/devicons/devicons";
-@import "../scss/animated-headline/style";
 @import "../scss/bootstrap";
-
 
 // Custom Style
 h1,h2,h3,h4,h5,h6 {
@@ -43,6 +41,13 @@ section.resume-section {
 
   section.resume-section .resume-item .resume-date {
     min-width: 18rem
+  }
+}
+
+// Medium devices (tablets, 992px and down)
+@media (max-width: 992px) {
+  section.resume-section {
+    margin-top: 6.5rem;
   }
 }
 
