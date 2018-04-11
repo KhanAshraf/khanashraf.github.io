@@ -1,6 +1,7 @@
 // Required
 @import "../scss/font-awesome/font-awesome";
 @import "../scss/devicons/devicons";
+@import "../scss/animated-headline/style";
 @import "../scss/bootstrap";
 
 
@@ -37,7 +38,7 @@ section.resume-section {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   section.resume-section {
-    min-height:100vh;
+    min-height:50vh;
   }
 
   section.resume-section .resume-item .resume-date {
