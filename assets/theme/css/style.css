@@ -1,36 +1,4 @@
-/* TABLE OF CONTENTS
-1) Body
-2) Page Loader
-3) Helper
-4) Typography
-5) Main Header
-6) Hero
-7) Sections
- 7.a) background
- 7.b) descmini
- 7.c) resume
- 7.d) pie
- 7.e) gallery
- 7.f) team
- 7.g) testimonial
- 7.h) service
- 7.i) video
- 7.j) map
- 7.k) blog
-8) Components
- 8.a) btn
- 8.b) progress
- 8.c) form
- 8.d) tabs
- 8.e) nav
- 8.f) modal 
- 8.g) panel
- 8.h) magnific-popup
-9) Main Footer
-10) Extra Pages
-* */
-/* 1) Body
------------------------------------------------------------------------------ */
+/* Develop By Ashraf Khan */
 body {
   letter-spacing: 0.3px;
   background: #ffffff;
@@ -1181,7 +1149,7 @@ button:focus {
 }
 .resume-list li .ic-re {
   margin-right: 5px;
-  color: #ddd;
+  color: #ffdb43;
 }
 .dark-page .resume-list {
   border-left: 1px solid #000000;
